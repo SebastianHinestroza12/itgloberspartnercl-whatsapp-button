@@ -1,6 +1,13 @@
 import styled from 'styled-components'
 
 const StyledComponent = styled.div`
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 53px !important;
+  height: 52px;
+  background-color: black;
+  border-radius: 50%;
   position: fixed;
   bottom: 0;
   left: 15px;
