@@ -39,25 +39,15 @@ This component is a button to redirect to a person's WhatsApp chat with a messag
   }
 }
    ```
+ ### whatsapp-button props
 
- Block name     | Description                                      |
-| -------------- | ----------------------------------------------- |
-| `list-context.bullet-group` | ![https://img.shields.io/badge/-Mandatory-red](https://img.shields.io/badge/-Mandatory-red)  Top level block that must be declared in the store-theme block to render a default detailed list with all bullets   |
-
-### list-context.bullet-group props
-
-| Prop name    | Type            | Description    | Default Value                                                     |
-| ------------ | --------------- | --------------------------------------------------------------------- | ---------- | 
-| `bullet`        | `Array`       | Define the bullet array to render in the list-context       | `undefined`              |
-
-
-### bullets props
-
-| Prop name    | Type            | Description    | Default value                                                                                                                               |
-| ------------ | --------------- | --------------------------------------------------------------------- | ---------- | 
-| `img`        | `String`       | Define the image to render in the list-context       | `undefined`              |
-| `titleBullet`        | `String`       | Define the title to render in the list-context       | `undefined`              |
-| `Link`        | `LinkProps`       |  Define the url to render in the list-context       | `undefined`              |
+| Prop name    | Type            | Description                                                                               | Default value    |
+| ------------ | --------------- | ----------------------------------------------------------------------------------------- | ---------------- | 
+| `logo`       | `String`        | Define the url of the image that will be used for the whatsapp button                     | `undefined` |
+| `phone`      | `String`        | Defines the WhatsApp number that the store uses to provide customer  service              | `+1234578` |
+| `message`    | `String`        | Define the welcome message that the client will see when entering the WhatsApp chat       | `Hello we help you?` |
+| `width`      | `Number`        | Define the width of the button                                                            | `120` |
+| `height`     | `Number`        | Define the height of the button                                                           | `120` |
 
 
 ## Customization
